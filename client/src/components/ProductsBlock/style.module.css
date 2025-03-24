@@ -1,0 +1,8 @@
+.productItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+	align-items: baseline;
+	cursor: pointer;
+}

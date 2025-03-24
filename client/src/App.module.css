@@ -1,0 +1,101 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1250px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.topBlocks {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ordersBlock {
+  width: 100%;
+  max-width: 600px;
+}
+.usersBlock,
+.productsBlock {
+  width: 40%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+}
+
+.ordersBlock {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+input {
+  padding: 8px;
+	margin: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 23%;
+}
+
+select {
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 30%;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 8px;
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background: #218838;
+}
+
+.deleteButton {
+  padding: 8px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.deleteButton:hover {
+  background: #c82333;
+}
+
+.error {
+  color: red;
+	padding-top: 6px;
+}
