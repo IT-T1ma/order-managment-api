@@ -10,6 +10,6 @@ RUN npm install --save-dev ts-node typescript
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 3333
 
 CMD ["npm", "run", "start:dev"]
